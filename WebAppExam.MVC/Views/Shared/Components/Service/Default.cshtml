@@ -1,0 +1,73 @@
+﻿@using WebAppExam.Core.Entities;
+@model IQueryable<Service>
+
+<!--SERVICES SECTION-->
+<section id="services-sec">
+    <div class="container">
+        <div class="row ">
+            <h1>OUR SERVICES :</h1>
+            <div class="col-md-12 g-pad-bottom">
+                <div class="col-md-6">
+                    <h2>Lorem ipsum dolor sit amet</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <h2>Lorem ipsum dolor sit amet</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-12 text-center">
+
+                @foreach (var item in Model)
+                {
+                    <div class="col-md-4 ">
+                    <div class="service-div">
+                        @item.IconUrl
+                        @*<i class="fa fa-desktop fa-5x faa-vertical animated"></i>*@
+                        <h4>@item.Title</h4>
+                        <p>
+                            @item.Description
+                        </p>
+                        <p>
+                            @item.SubTitle
+                        </p>
+                    </div>
+                </div>
+                }
+                
+            </div>
+            <div class="col-md-12 g-pad-bottom">
+                <div class="col-md-12">
+                    <h2>Lorem ipsum dolor sit amet</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+<!--END SERVICES SECTION-->

@@ -1,0 +1,12 @@
+C:\Users\II novbe\Desktop\FinalExamMVC\src\WebAppExam\WebAppExam.Core\bin\Debug\net6.0\WebAppExam.Core.deps.json
+C:\Users\II novbe\Desktop\FinalExamMVC\src\WebAppExam\WebAppExam.Core\bin\Debug\net6.0\WebAppExam.Core.dll
+C:\Users\II novbe\Desktop\FinalExamMVC\src\WebAppExam\WebAppExam.Core\bin\Debug\net6.0\WebAppExam.Core.pdb
+C:\Users\II novbe\Desktop\FinalExamMVC\src\WebAppExam\WebAppExam.Core\obj\Debug\net6.0\WebAppExam.Core.csproj.AssemblyReference.cache
+C:\Users\II novbe\Desktop\FinalExamMVC\src\WebAppExam\WebAppExam.Core\obj\Debug\net6.0\WebAppExam.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\II novbe\Desktop\FinalExamMVC\src\WebAppExam\WebAppExam.Core\obj\Debug\net6.0\WebAppExam.Core.AssemblyInfoInputs.cache
+C:\Users\II novbe\Desktop\FinalExamMVC\src\WebAppExam\WebAppExam.Core\obj\Debug\net6.0\WebAppExam.Core.AssemblyInfo.cs
+C:\Users\II novbe\Desktop\FinalExamMVC\src\WebAppExam\WebAppExam.Core\obj\Debug\net6.0\WebAppExam.Core.csproj.CoreCompileInputs.cache
+C:\Users\II novbe\Desktop\FinalExamMVC\src\WebAppExam\WebAppExam.Core\obj\Debug\net6.0\WebAppExam.Core.dll
+C:\Users\II novbe\Desktop\FinalExamMVC\src\WebAppExam\WebAppExam.Core\obj\Debug\net6.0\refint\WebAppExam.Core.dll
+C:\Users\II novbe\Desktop\FinalExamMVC\src\WebAppExam\WebAppExam.Core\obj\Debug\net6.0\WebAppExam.Core.pdb
+C:\Users\II novbe\Desktop\FinalExamMVC\src\WebAppExam\WebAppExam.Core\obj\Debug\net6.0\ref\WebAppExam.Core.dll

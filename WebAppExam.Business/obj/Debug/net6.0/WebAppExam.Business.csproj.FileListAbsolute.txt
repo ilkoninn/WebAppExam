@@ -1,0 +1,17 @@
+C:\Users\II novbe\Desktop\FinalExamMVC\src\WebAppExam\WebAppExam.Business\bin\Debug\net6.0\WebAppExam.Business.deps.json
+C:\Users\II novbe\Desktop\FinalExamMVC\src\WebAppExam\WebAppExam.Business\bin\Debug\net6.0\WebAppExam.Business.dll
+C:\Users\II novbe\Desktop\FinalExamMVC\src\WebAppExam\WebAppExam.Business\bin\Debug\net6.0\WebAppExam.Business.pdb
+C:\Users\II novbe\Desktop\FinalExamMVC\src\WebAppExam\WebAppExam.Business\bin\Debug\net6.0\WebAppExam.Core.dll
+C:\Users\II novbe\Desktop\FinalExamMVC\src\WebAppExam\WebAppExam.Business\bin\Debug\net6.0\WebAppExam.DAL.dll
+C:\Users\II novbe\Desktop\FinalExamMVC\src\WebAppExam\WebAppExam.Business\bin\Debug\net6.0\WebAppExam.DAL.pdb
+C:\Users\II novbe\Desktop\FinalExamMVC\src\WebAppExam\WebAppExam.Business\bin\Debug\net6.0\WebAppExam.Core.pdb
+C:\Users\II novbe\Desktop\FinalExamMVC\src\WebAppExam\WebAppExam.Business\obj\Debug\net6.0\WebAppExam.Business.csproj.AssemblyReference.cache
+C:\Users\II novbe\Desktop\FinalExamMVC\src\WebAppExam\WebAppExam.Business\obj\Debug\net6.0\WebAppExam.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\II novbe\Desktop\FinalExamMVC\src\WebAppExam\WebAppExam.Business\obj\Debug\net6.0\WebAppExam.Business.AssemblyInfoInputs.cache
+C:\Users\II novbe\Desktop\FinalExamMVC\src\WebAppExam\WebAppExam.Business\obj\Debug\net6.0\WebAppExam.Business.AssemblyInfo.cs
+C:\Users\II novbe\Desktop\FinalExamMVC\src\WebAppExam\WebAppExam.Business\obj\Debug\net6.0\WebAppExam.Business.csproj.CoreCompileInputs.cache
+C:\Users\II novbe\Desktop\FinalExamMVC\src\WebAppExam\WebAppExam.Business\obj\Debug\net6.0\WebAppExam.Business.csproj.CopyComplete
+C:\Users\II novbe\Desktop\FinalExamMVC\src\WebAppExam\WebAppExam.Business\obj\Debug\net6.0\WebAppExam.Business.dll
+C:\Users\II novbe\Desktop\FinalExamMVC\src\WebAppExam\WebAppExam.Business\obj\Debug\net6.0\refint\WebAppExam.Business.dll
+C:\Users\II novbe\Desktop\FinalExamMVC\src\WebAppExam\WebAppExam.Business\obj\Debug\net6.0\WebAppExam.Business.pdb
+C:\Users\II novbe\Desktop\FinalExamMVC\src\WebAppExam\WebAppExam.Business\obj\Debug\net6.0\ref\WebAppExam.Business.dll

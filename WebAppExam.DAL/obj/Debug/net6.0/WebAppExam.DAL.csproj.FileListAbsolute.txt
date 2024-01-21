@@ -1,0 +1,17 @@
+C:\Users\II novbe\Desktop\FinalExamMVC\src\WebAppExam\WebAppExam.DAL\bin\Debug\net6.0\WebAppExam.DAL.deps.json
+C:\Users\II novbe\Desktop\FinalExamMVC\src\WebAppExam\WebAppExam.DAL\bin\Debug\net6.0\WebAppExam.DAL.runtimeconfig.json
+C:\Users\II novbe\Desktop\FinalExamMVC\src\WebAppExam\WebAppExam.DAL\bin\Debug\net6.0\WebAppExam.DAL.dll
+C:\Users\II novbe\Desktop\FinalExamMVC\src\WebAppExam\WebAppExam.DAL\bin\Debug\net6.0\WebAppExam.DAL.pdb
+C:\Users\II novbe\Desktop\FinalExamMVC\src\WebAppExam\WebAppExam.DAL\bin\Debug\net6.0\WebAppExam.Core.dll
+C:\Users\II novbe\Desktop\FinalExamMVC\src\WebAppExam\WebAppExam.DAL\bin\Debug\net6.0\WebAppExam.Core.pdb
+C:\Users\II novbe\Desktop\FinalExamMVC\src\WebAppExam\WebAppExam.DAL\obj\Debug\net6.0\WebAppExam.DAL.csproj.AssemblyReference.cache
+C:\Users\II novbe\Desktop\FinalExamMVC\src\WebAppExam\WebAppExam.DAL\obj\Debug\net6.0\WebAppExam.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\II novbe\Desktop\FinalExamMVC\src\WebAppExam\WebAppExam.DAL\obj\Debug\net6.0\WebAppExam.DAL.AssemblyInfoInputs.cache
+C:\Users\II novbe\Desktop\FinalExamMVC\src\WebAppExam\WebAppExam.DAL\obj\Debug\net6.0\WebAppExam.DAL.AssemblyInfo.cs
+C:\Users\II novbe\Desktop\FinalExamMVC\src\WebAppExam\WebAppExam.DAL\obj\Debug\net6.0\WebAppExam.DAL.csproj.CoreCompileInputs.cache
+C:\Users\II novbe\Desktop\FinalExamMVC\src\WebAppExam\WebAppExam.DAL\obj\Debug\net6.0\WebAppExam.DAL.csproj.CopyComplete
+C:\Users\II novbe\Desktop\FinalExamMVC\src\WebAppExam\WebAppExam.DAL\obj\Debug\net6.0\WebAppExam.DAL.dll
+C:\Users\II novbe\Desktop\FinalExamMVC\src\WebAppExam\WebAppExam.DAL\obj\Debug\net6.0\refint\WebAppExam.DAL.dll
+C:\Users\II novbe\Desktop\FinalExamMVC\src\WebAppExam\WebAppExam.DAL\obj\Debug\net6.0\WebAppExam.DAL.pdb
+C:\Users\II novbe\Desktop\FinalExamMVC\src\WebAppExam\WebAppExam.DAL\obj\Debug\net6.0\WebAppExam.DAL.genruntimeconfig.cache
+C:\Users\II novbe\Desktop\FinalExamMVC\src\WebAppExam\WebAppExam.DAL\obj\Debug\net6.0\ref\WebAppExam.DAL.dll
