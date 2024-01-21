@@ -50,6 +50,12 @@ namespace WebAppExam.MVC.Controllers
 
                 return View();
             }
+            catch (ObjectParamsNullException ex)
+            {
+                ModelState.AddModelError(ex.ParamName, ex.Message);
+
+                return View();
+            }
         }
 
         [HttpGet]
@@ -78,6 +84,12 @@ namespace WebAppExam.MVC.Controllers
                 return RedirectToAction("Index", "Home");
             }
             catch (UserNotFoundException ex)
+            {
+                ModelState.AddModelError(ex.ParamName, ex.Message);
+
+                return View();
+            }
+            catch (ObjectParamsNullException ex)
             {
                 ModelState.AddModelError(ex.ParamName, ex.Message);
 

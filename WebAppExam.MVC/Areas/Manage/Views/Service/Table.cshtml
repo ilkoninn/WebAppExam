@@ -8,7 +8,9 @@
 <div class="card shadow mb-4">
     <div class="card-header py-3">
         <a asp-action="Create" asp-controller="Service" class="btn btn-primary mt-4 mb-4">Create</a>
-        <div asp-validation-summary=All class="mt-4 mb-4"></div>
+        <div class="mb-1">
+            @TempData["Error"]
+        </div>
     </div>
     <div class="card-body">
         <div class="table-responsive">

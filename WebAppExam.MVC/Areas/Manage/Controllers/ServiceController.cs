@@ -49,13 +49,13 @@ namespace WebAppExam.MVC.Areas.Manage.Controllers
             }
             catch (IdNegativeOrZeroException ex)
             {
-                ModelState.AddModelError(ex.ParamName, ex.Message);
+                TempData["Error"] = ex.Message;
 
                 return RedirectToAction(nameof(Table));
             }
             catch (ObjectNullException ex)
             {
-                ModelState.AddModelError(ex.ParamName, ex.Message);
+                TempData["Error"] = ex.Message;
 
                 return RedirectToAction(nameof(Table));
             }
@@ -73,13 +73,13 @@ namespace WebAppExam.MVC.Areas.Manage.Controllers
             }
             catch (IdNegativeOrZeroException ex)
             {
-                ModelState.AddModelError(ex.ParamName, ex.Message);
+                TempData["Error"] = ex.Message;
 
                 return RedirectToAction(nameof(Table));
             }
             catch (ObjectNullException ex)
             {
-                ModelState.AddModelError(ex.ParamName, ex.Message);
+                TempData["Error"] = ex.Message;
 
                 return RedirectToAction(nameof(Table));
             }
@@ -97,13 +97,13 @@ namespace WebAppExam.MVC.Areas.Manage.Controllers
             }
             catch (IdNegativeOrZeroException ex)
             {
-                ModelState.AddModelError(string.Empty, ex.Message);
+                TempData["Error"] = ex.Message;
 
                 return RedirectToAction(nameof(Table));
             }
             catch (ObjectNullException ex)
             {
-                ModelState.AddModelError(string.Empty, ex.Message);
+                TempData["Error"] = ex.Message;
 
                 return RedirectToAction(nameof(Table));
             }
@@ -121,13 +121,13 @@ namespace WebAppExam.MVC.Areas.Manage.Controllers
             }
             catch (IdNegativeOrZeroException ex)
             {
-                ModelState.AddModelError(string.Empty, ex.Message);
+                TempData["Error"] = ex.Message;
 
                 return RedirectToAction(nameof(Table));
             }
             catch (ObjectNullException ex)
             {
-                ModelState.AddModelError(string.Empty, ex.Message);
+                TempData["Error"] = ex.Message;
 
                 return RedirectToAction(nameof(Table));
             }
@@ -178,13 +178,13 @@ namespace WebAppExam.MVC.Areas.Manage.Controllers
             }
             catch (IdNegativeOrZeroException ex)
             {
-                ModelState.AddModelError(string.Empty, ex.Message);
+                TempData["Error"] = ex.Message;
 
                 return RedirectToAction(nameof(Table));
             }
             catch (ObjectNullException ex)
             {
-                ModelState.AddModelError(string.Empty, ex.Message);
+                TempData["Error"] = ex.Message;
 
                 return RedirectToAction(nameof(Table));
             }
@@ -202,13 +202,13 @@ namespace WebAppExam.MVC.Areas.Manage.Controllers
             }
             catch (IdNegativeOrZeroException ex)
             {
-                ModelState.AddModelError(string.Empty, ex.Message);
+                TempData["Error"] = ex.Message;
 
                 return RedirectToAction(nameof(Table));
             }
             catch (ObjectNullException ex)
             {
-                ModelState.AddModelError(string.Empty, ex.Message);
+                TempData["Error"] = ex.Message;
 
                 return RedirectToAction(nameof(Table));
             }
