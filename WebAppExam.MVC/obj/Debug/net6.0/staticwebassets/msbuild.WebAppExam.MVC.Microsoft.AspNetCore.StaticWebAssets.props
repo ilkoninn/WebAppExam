@@ -29984,6 +29984,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\manage\vendor\jquery\jquery.slim.min.map))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Upload\Settings\03e669e6-6769-4d92-858e-8d64e47286c7pngtree-salon-logo-png-image_4004444.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebAppExam.MVC</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebAppExam.MVC</BasePath>
+      <RelativePath>Upload/Settings/03e669e6-6769-4d92-858e-8d64e47286c7pngtree-salon-logo-png-image_4004444.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Upload\Settings\03e669e6-6769-4d92-858e-8d64e47286c7pngtree-salon-logo-png-image_4004444.png))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Upload\Settings\162388e8-96f4-4056-9c9e-f4bd61c72f57111.png))">
       <SourceType>Package</SourceType>
       <SourceId>WebAppExam.MVC</SourceId>

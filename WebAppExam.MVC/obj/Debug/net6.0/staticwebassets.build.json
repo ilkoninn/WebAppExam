@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "DnnsEchwd3PisdRKGL2Xyk9lR+WJUSQnF3MaxbdTi5I=",
+  "Hash": "LG1M8oFvwszOeVVLDYhNq1nKz+avji77llIGzW5Wu20=",
   "Source": "WebAppExam.MVC",
   "BasePath": "_content/WebAppExam.MVC",
   "Mode": "Default",
@@ -31907,6 +31907,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\manage\\vendor\\jquery-easing\\jquery.easing.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\II novbe\\Desktop\\WebAppExam\\WebAppExam.MVC\\wwwroot\\Upload\\Settings\\03e669e6-6769-4d92-858e-8d64e47286c7pngtree-salon-logo-png-image_4004444.png",
+      "SourceId": "WebAppExam.MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\II novbe\\Desktop\\WebAppExam\\WebAppExam.MVC\\wwwroot\\",
+      "BasePath": "_content/WebAppExam.MVC",
+      "RelativePath": "Upload/Settings/03e669e6-6769-4d92-858e-8d64e47286c7pngtree-salon-logo-png-image_4004444.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Upload\\Settings\\03e669e6-6769-4d92-858e-8d64e47286c7pngtree-salon-logo-png-image_4004444.png"
     },
     {
       "Identity": "C:\\Users\\II novbe\\Desktop\\WebAppExam\\WebAppExam.MVC\\wwwroot\\Upload\\Settings\\162388e8-96f4-4056-9c9e-f4bd61c72f57111.png",
