@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Data;
 using WebAppExam.Business.Helpers;
+using WebAppExam.Business.Services.Implementations;
 using WebAppExam.DAL.Context;
 
 namespace WebAppExam.MVC.Areas.Manage.Controllers
@@ -39,10 +40,22 @@ namespace WebAppExam.MVC.Areas.Manage.Controllers
 
         [HttpPost]
         [Authorize(Roles = "Moderator, Admin")]
-        public async Task<IActionResult> Update(Dictionary<string, string> settings, IFormFile? file)
+        public async Task<IActionResult> Update(Dictionary<string, string> settings, IFormFile? logo)
         {
             foreach (var item in settings)
             {
+                if(item.Key != "Logo")
+                {
+                    if(item.Value is null )
+                    {
+                        ModelState.AddModelError("", "Object parameters is required!");
+
+                        return View(await _context.Settings
+                .Where(x => !x.IsDeleted)
+                .ToDictionaryAsync(k => k.Key, k => k.Value));
+                    }
+                }
+
                 if (item.Key == "__RequestVerificationToken") continue;
 
                 if(item.Key != null)
@@ -51,7 +64,16 @@ namespace WebAppExam.MVC.Areas.Manage.Controllers
 
                     if(newSetting.Key == "Logo")
                     {
-                        newSetting.Value = file.Upload(_env.WebRootPath, @"/Upload/Settings/");
+                        if(logo is not null)
+                        {
+                            if (!logo.CheckImage())
+                            {
+                                ModelState.AddModelError("", "File must be image format and lower than 3MB!");
+
+                                return View(settings);
+                            }
+                            newSetting.Value = logo.Upload(_env.WebRootPath, @"/Upload/Settings/");
+                        }
                     }
                     else
                     {
@@ -60,6 +82,8 @@ namespace WebAppExam.MVC.Areas.Manage.Controllers
                 }
 
             }
+
+            await _context.SaveChangesAsync();
 
             return RedirectToAction(nameof(Detail));
         }

@@ -1,0 +1,28 @@
+﻿@using WebAppExam.Business.ViewModels.Service;
+@model CreateServiceVM
+
+<div class="container">
+    <form method="post">
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Service Title</label>
+            <input asp-for="Title" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Service SubTitle</label>
+            <input asp-for="SubTitle" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Service Description</label>
+            <input asp-for="Description" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Service Icon</label>
+            <input asp-for="IconUrl" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+
+        <div asp-validation-summary=All class="mt-4 mb-4"></div>
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+        <a asp-action="Table" asp-controller="Service" class="btn btn-warning">Go Back</a>
+    </form>
+</div>

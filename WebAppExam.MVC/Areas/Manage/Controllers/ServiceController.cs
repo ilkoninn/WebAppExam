@@ -33,7 +33,7 @@ namespace WebAppExam.MVC.Areas.Manage.Controllers
             else
             {
                 var services = (await _service.GetAllAsync()).Where(x => !x.IsDeleted);
-               return View(services);
+                return View(services);
             }
         }
 
@@ -49,13 +49,13 @@ namespace WebAppExam.MVC.Areas.Manage.Controllers
             }
             catch (IdNegativeOrZeroException ex)
             {
-                ModelState.AddModelError(string.Empty, ex.Message);
+                ModelState.AddModelError(ex.ParamName, ex.Message);
 
                 return RedirectToAction(nameof(Table));
             }
             catch (ObjectNullException ex)
             {
-                ModelState.AddModelError(string.Empty, ex.Message);
+                ModelState.AddModelError(ex.ParamName, ex.Message);
 
                 return RedirectToAction(nameof(Table));
             }
@@ -73,13 +73,13 @@ namespace WebAppExam.MVC.Areas.Manage.Controllers
             }
             catch (IdNegativeOrZeroException ex)
             {
-                ModelState.AddModelError(string.Empty, ex.Message);
+                ModelState.AddModelError(ex.ParamName, ex.Message);
 
                 return RedirectToAction(nameof(Table));
             }
             catch (ObjectNullException ex)
             {
-                ModelState.AddModelError(string.Empty, ex.Message);
+                ModelState.AddModelError(ex.ParamName, ex.Message);
 
                 return RedirectToAction(nameof(Table));
             }
@@ -140,7 +140,7 @@ namespace WebAppExam.MVC.Areas.Manage.Controllers
             return View();
         }
 
-        [HttpGet]
+        [HttpPost]
         [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Create(CreateServiceVM vm)
         {
@@ -154,18 +154,43 @@ namespace WebAppExam.MVC.Areas.Manage.Controllers
             {
                 ModelState.AddModelError(ex.ParamName, ex.Message);
 
-                return RedirectToAction(nameof(Table));
+                return View();
             }
         }
 
         [HttpGet]
         [Authorize(Roles = "Admin")]
-        public async Task<IActionResult> Update()
+        public async Task<IActionResult> Update(int id)
         {
-            return View();
+            try
+            {
+                var oldService = await _service.GetByIdAsync(id);
+
+                UpdateServiceVM vm = new()
+                {
+                    Title = oldService.Title,
+                    SubTitle = oldService.SubTitle,
+                    Description = oldService.Description,
+                    IconUrl = oldService.IconUrl,
+                };
+
+                return View(vm);
+            }
+            catch (IdNegativeOrZeroException ex)
+            {
+                ModelState.AddModelError(string.Empty, ex.Message);
+
+                return RedirectToAction(nameof(Table));
+            }
+            catch (ObjectNullException ex)
+            {
+                ModelState.AddModelError(string.Empty, ex.Message);
+
+                return RedirectToAction(nameof(Table));
+            }
         }
 
-        [HttpGet]
+        [HttpPost]
         [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Update(UpdateServiceVM vm)
         {
@@ -191,7 +216,7 @@ namespace WebAppExam.MVC.Areas.Manage.Controllers
             {
                 ModelState.AddModelError(ex.ParamName, ex.Message);
 
-                return RedirectToAction(nameof(Table));
+                return View();
             }
         }
     }

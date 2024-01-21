@@ -97,7 +97,7 @@ namespace WebAppExam.Business.Services.Implementations
                     }
                 }
 
-                await _userManager.AddToRoleAsync(newUser, UserRoles.Admin.ToString());
+                await _userManager.AddToRoleAsync(newUser, UserRoles.Moderator.ToString());
             }
         }
     }

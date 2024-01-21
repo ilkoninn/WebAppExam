@@ -1,0 +1,19 @@
+﻿@using WebAppExam.Core.Entities;
+@model Service
+
+<div class="container">
+    <h3>Service Title</h3>
+    <h3 class="mb-3">@Model.Title</h3>
+
+    <h3>Service SubTitle</h3>
+    <h3 class="mb-3">@Model.SubTitle</h3>
+
+    <h3>Service Description</h3>
+    <h3 class="mb-3">@Model.Description</h3>
+    
+    <h4>Service Icon</h4>
+    <h3 class="mb-3">@Model.IconUrl</h3>
+
+    <a asp-action="Table" asp-controller="Service" class="btn btn-warning">Go Back</a>
+
+</div>
