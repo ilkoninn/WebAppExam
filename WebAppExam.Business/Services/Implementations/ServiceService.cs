@@ -32,7 +32,9 @@ namespace WebAppExam.Business.Services.Implementations
                 IconUrl = vm.IconUrl,
                 Title = vm.Title,
                 Description = vm.Description,
-                SubTitle = vm.SubTitle
+                SubTitle = vm.SubTitle,
+                CreatedDate = DateTime.Now,
+                UpdatedDate = DateTime.Now,
             };
 
             await _rep.CreateAsync(newService);
@@ -85,6 +87,7 @@ namespace WebAppExam.Business.Services.Implementations
             oldService.Title = vm.Title;
             oldService.Description = vm.Description;
             oldService.SubTitle = vm.SubTitle;
+            oldService.UpdatedDate = DateTime.Now;
 
             if(vm.IconUrl is not null)
             {

@@ -22,3 +22,16 @@ C:\Users\II novbe\Desktop\WebAppExam\WebAppExam.Core\obj\Debug\net6.0\WebAppExam
 C:\Users\II novbe\Desktop\WebAppExam\WebAppExam.Core\obj\Debug\net6.0\refint\WebAppExam.Core.dll
 C:\Users\II novbe\Desktop\WebAppExam\WebAppExam.Core\obj\Debug\net6.0\WebAppExam.Core.pdb
 C:\Users\II novbe\Desktop\WebAppExam\WebAppExam.Core\obj\Debug\net6.0\ref\WebAppExam.Core.dll
+C:\Users\99470\Desktop\WebAppExam\WebAppExam.Core\bin\Debug\net6.0\WebAppExam.Core.deps.json
+C:\Users\99470\Desktop\WebAppExam\WebAppExam.Core\bin\Debug\net6.0\WebAppExam.Core.dll
+C:\Users\99470\Desktop\WebAppExam\WebAppExam.Core\bin\Debug\net6.0\WebAppExam.Core.pdb
+C:\Users\99470\Desktop\WebAppExam\WebAppExam.Core\obj\Debug\net6.0\WebAppExam.Core.csproj.AssemblyReference.cache
+C:\Users\99470\Desktop\WebAppExam\WebAppExam.Core\obj\Debug\net6.0\WebAppExam.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\99470\Desktop\WebAppExam\WebAppExam.Core\obj\Debug\net6.0\WebAppExam.Core.AssemblyInfoInputs.cache
+C:\Users\99470\Desktop\WebAppExam\WebAppExam.Core\obj\Debug\net6.0\WebAppExam.Core.AssemblyInfo.cs
+C:\Users\99470\Desktop\WebAppExam\WebAppExam.Core\obj\Debug\net6.0\WebAppExam.Core.csproj.CoreCompileInputs.cache
+C:\Users\99470\Desktop\WebAppExam\WebAppExam.Core\obj\Debug\net6.0\WebAppExam.Core.sourcelink.json
+C:\Users\99470\Desktop\WebAppExam\WebAppExam.Core\obj\Debug\net6.0\WebAppExam.Core.dll
+C:\Users\99470\Desktop\WebAppExam\WebAppExam.Core\obj\Debug\net6.0\refint\WebAppExam.Core.dll
+C:\Users\99470\Desktop\WebAppExam\WebAppExam.Core\obj\Debug\net6.0\WebAppExam.Core.pdb
+C:\Users\99470\Desktop\WebAppExam\WebAppExam.Core\obj\Debug\net6.0\ref\WebAppExam.Core.dll
